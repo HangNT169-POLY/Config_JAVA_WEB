@@ -4,9 +4,14 @@
 
 ```
 <dependency>
-  <groupId>org.hibernate</groupId>
-  <artifactId>hibernate-core</artifactId>
-  <version>5.4.7.Final</version>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core-jakarta</artifactId>
+    <version>5.6.10.Final</version>
+</dependency>
+<dependency>
+    <groupId>jakarta.persistence</groupId>
+    <artifactId>jakarta.persistence-api</artifactId>
+    <version>3.1.0</version>
 </dependency>
 ```
 
@@ -65,15 +70,6 @@
     <artifactId>lombok</artifactId>
     <version>1.18.24</version>
     <scope>provided</scope>
-</dependency>
-```
-
-## Hibernate
-```
-<dependency>
-    <groupId>org.hibernate</groupId>
-    <artifactId>hibernate-core</artifactId>
-    <version>5.4.7.Final</version>
 </dependency>
 ```
 
