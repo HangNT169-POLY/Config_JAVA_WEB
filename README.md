@@ -15,26 +15,13 @@
 </dependency>
 ```
 
-## JSTL - Java 4 
+## JSTL 
 ```
-<dependency>
-    <groupId>org.apache.taglibs</groupId>
-    <artifactId>taglibs-standard-impl</artifactId>
-    <version>1.2.5</version>
-    <scope>runtime</scope>
-</dependency>
-<dependency>
-    <groupId>org.apache.taglibs</groupId>
-    <artifactId>taglibs-standard-spec</artifactId>
-    <version>1.2.5</version>
-</dependency>
-
 <dependency>
     <groupId>jakarta.servlet.jsp.jstl</groupId>
     <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
     <version>2.0.0</version>
 </dependency>
-
 <dependency>
     <groupId>org.glassfish.web</groupId>
     <artifactId>jakarta.servlet.jsp.jstl</artifactId>
@@ -42,27 +29,6 @@
 </dependency>
 ```
 
-## JSTL - Java 5 
-``` 
- <!-- taglibs-standard-spec-*.jar -->
-<dependency>
-    <groupId>org.apache.taglibs</groupId>
-    <artifactId>taglibs-standard-spec</artifactId>
-    <version>1.2.5</version>
-</dependency>
-
-<!-- taglibs-standard-impl-*.jar -->
-<dependency>
-    <groupId>org.apache.taglibs</groupId>
-    <artifactId>taglibs-standard-impl</artifactId>
-    <version>1.2.5</version>
-</dependency>
-<dependency>
-    <groupId>javax.servlet.jsp.jstl</groupId>
-    <artifactId>jstl-api</artifactId>
-    <version>1.2</version>
-</dependency>
-```
 ## Lombox
 ```
 <dependency>
