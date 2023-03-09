@@ -65,13 +65,6 @@
     <version>2.7.0</version>
 </dependency>
 ```
-## Hibernate Validator 
-``` 
-<dependency>
-    <groupId>org.hibernate.validator</groupId>
-    <artifactId>hibernate-validator</artifactId>
-</dependency>
-```
 
 ## Spring Validator 
 ``` 
