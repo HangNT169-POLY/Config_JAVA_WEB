@@ -42,9 +42,9 @@
 ## MSSQL JDBC
 ``` 
 <dependency>
-  <groupId>com.microsoft.sqlserver</groupId>
-  <artifactId>mssql-jdbc</artifactId>
-  <version>10.2.1.jre8</version>
+    <groupId>com.microsoft.sqlserver</groupId>
+    <artifactId>mssql-jdbc</artifactId>
+    <version>9.4.1.jre16</version>
 </dependency>
 ```
 
@@ -68,10 +68,10 @@
 
 ## Spring Validator 
 ``` 
-  <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-validation</artifactId>
-        </dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-validation</artifactId>
+</dependency>
 ```
 ## Loop - JSTL 
 ```
