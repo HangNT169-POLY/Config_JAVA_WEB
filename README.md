@@ -8,11 +8,6 @@
     <artifactId>hibernate-core-jakarta</artifactId>
     <version>5.6.10.Final</version>
 </dependency>
-<dependency>
-    <groupId>jakarta.persistence</groupId>
-    <artifactId>jakarta.persistence-api</artifactId>
-    <version>3.1.0</version>
-</dependency>
 ```
 
 ## JSTL 
