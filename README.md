@@ -9,7 +9,13 @@
     <version>5.6.10.Final</version>
 </dependency>
 ```
-
+## Nhúng Tomcat 
+```
+<dependency>
+    <groupId>org.apache.tomcat.embed</groupId>
+    <artifactId>tomcat-embed-jasper</artifactId>
+</dependency>
+```
 ## JSTL 
 ```
 <dependency>
