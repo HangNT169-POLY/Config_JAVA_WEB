@@ -66,9 +66,8 @@ spring.mvc.view.suffix: .jsp
 ## JPA 
 ```
 <dependency>
-    <groupId>org.springframework.data</groupId>
-    <artifactId>spring-data-jpa</artifactId>
-    <version>2.7.0</version>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-data-jpa</artifactId>
 </dependency>
 ```
 
