@@ -29,7 +29,7 @@ public class SQLServerConnection {
 
         // Create a variable for the connection string.
         String connectionUrl = "jdbc:sqlserver://" + HOSTNAME + ":" + PORT + ";"
-                + "databaseName=" + DBNAME;
+                + "databaseName=" + DBNAME +";encrypt=true;trustServerCertificate=true;";
 
         try {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
