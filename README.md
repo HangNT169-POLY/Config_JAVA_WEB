@@ -70,7 +70,14 @@ spring.mvc.view.suffix: .jsp
     <artifactId>spring-boot-starter-data-jpa</artifactId>
 </dependency>
 ```
-
+## BeanUnils 
+```
+<dependency>
+    <groupId>commons-beanutils</groupId>
+    <artifactId>commons-beanutils</artifactId>
+    <version>1.9.4</version>
+</dependency>
+```
 ## Spring Validator 
 ``` 
 <dependency>
