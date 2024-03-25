@@ -21,7 +21,7 @@ public class HibernateConfig {
         Properties properties = new Properties();
         properties.put(Environment.DIALECT, "org.hibernate.dialect.SQLServerDialect");
         properties.put(Environment.DRIVER, "com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        properties.put(Environment.URL, "jdbc:sqlserver://localhost:1433;databaseName=hibernate_demo");
+        properties.put(Environment.URL, "jdbc:sqlserver://localhost:1433;databaseName=hibernate_demo;encrypt=true;trustServerCertificate=true;");
         properties.put(Environment.USER, "sa");
         properties.put(Environment.PASS, "Password.1");
         properties.put(Environment.SHOW_SQL, "true");
