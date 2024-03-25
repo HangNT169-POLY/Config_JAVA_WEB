@@ -12,7 +12,7 @@ import java.util.Properties;
 /**
  * @author hangnt169
  */
-public class HibernateUtil {
+public class HibernateConfig {
     private static final SessionFactory FACTORY;
 
     static {
