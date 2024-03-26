@@ -1,6 +1,5 @@
 package com.poly.template.util;
 
-import com.poly.template.entity.DongVat;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
@@ -23,11 +22,11 @@ public class HibernateConfig {
         properties.put(Environment.DRIVER, "com.microsoft.sqlserver.jdbc.SQLServerDriver");
         properties.put(Environment.URL, "jdbc:sqlserver://localhost:1433;databaseName=hibernate_demo;encrypt=true;trustServerCertificate=true;");
         properties.put(Environment.USER, "sa");
-        properties.put(Environment.PASS, "Password.1");
+        properties.put(Environment.PASS, "xxxxx");
         properties.put(Environment.SHOW_SQL, "true");
 
         conf.setProperties(properties);
-        conf.addAnnotatedClass(DongVat.class);
+
         ServiceRegistry registry = new StandardServiceRegistryBuilder()
                 .applySettings(conf.getProperties()).build();
         FACTORY = conf.buildSessionFactory(registry);
@@ -37,5 +36,9 @@ public class HibernateConfig {
     public static SessionFactory getFACTORY() {
         return FACTORY;
     }
-
+    
+    public static void main(String[] args) {
+        System.out.println(getFACTORY());
+    }
+    
 }
