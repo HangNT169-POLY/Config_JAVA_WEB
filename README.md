@@ -78,7 +78,7 @@ spring.mvc.view.suffix: .jsp
     <version>1.9.4</version>
 </dependency>
 ```
-## Spring Validator 
+## Spring Validation
 ``` 
 <dependency>
     <groupId>org.springframework.boot</groupId>
