@@ -85,6 +85,15 @@ spring.mvc.view.suffix: .jsp
     <artifactId>spring-boot-starter-validation</artifactId>
 </dependency>
 ```
+## Gson 
+```
+ <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.11.0</version>
+        </dependency>
+```
 ## Loop - JSTL 
 ```
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
