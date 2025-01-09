@@ -94,6 +94,13 @@ spring.mvc.view.suffix: .jsp
             <version>2.11.0</version>
         </dependency>
 ```
+## Thymeleaf
+```
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-thymeleaf</artifactId>
+</dependency>
+```
 ## Loop - JSTL 
 ```
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
