@@ -50,7 +50,7 @@ spring.mvc.view.suffix: .jsp
 <dependency>
     <groupId>com.microsoft.sqlserver</groupId>
     <artifactId>mssql-jdbc</artifactId>
-    <version>9.4.1.jre16</version>
+    <version>12.2.0.jre11</version>
 </dependency>
 ```
 
