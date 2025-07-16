@@ -1,4 +1,6 @@
 import org.modelmapper.ModelMapper;
+import org.modelmapper.config.Configuration;
+import org.modelmapper.convention.MatchingStrategies;
 
 public class MapperUtils {
    private static final ModelMapper modelMapper = new ModelMapper();
