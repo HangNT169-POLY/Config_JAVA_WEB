@@ -1,13 +1,17 @@
 import org.modelmapper.ModelMapper;
 
 public class MapperUtils {
-    private static final ModelMapper modelMapper = new ModelMapper();
+   private static final ModelMapper modelMapper = new ModelMapper();
 
-    /**
-     * Map generic từ source sang class target mới
-     */
-    public static <S, T> T map(S source, Class<T> targetClass) {
-        return modelMapper.map(source, targetClass);
+    static {
+        modelMapper.getConfiguration()
+                .setMatchingStrategy(MatchingStrategies.STRICT)
+                .setFieldMatchingEnabled(true)
+                .setFieldAccessLevel(AccessLevel.PRIVATE);
+    }
+
+    public static <S, D> D map(S source, Class<D> destinationType) {
+        return modelMapper.map(source, destinationType);
     }
 
     /**
@@ -15,5 +19,9 @@ public class MapperUtils {
      */
     public static <S, T> void mapToExisting(S source, T target) {
         modelMapper.map(source, target);
+    }
+
+    public static ModelMapper getModelMapper() {
+        return modelMapper;
     }
 }
