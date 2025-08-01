@@ -10,7 +10,7 @@ import java.util.Date;
 public class JwtUtil {
 
     private final SecretKey secretKey =
-            Keys.hmacShaKeyFor("summer_25-block_2-sof3062-sd20201".getBytes());
+            Keys.hmacShaKeyFor("sof3062".getBytes());
 
     public String generateToken(String username) {
         return Jwts.builder()
