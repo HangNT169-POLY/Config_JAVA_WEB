@@ -101,11 +101,21 @@ spring.mvc.view.suffix: .jsp
 </dependency>
 ```
 ## Model Mapper
-     <dependency>
-            <groupId>org.modelmapper</groupId>
-            <artifactId>modelmapper</artifactId>
-            <version>3.1.1</version>
-        </dependency>
+```
+ <dependency>
+    <groupId>org.modelmapper</groupId>
+    <artifactId>modelmapper</artifactId>
+    <version>3.1.1</version>
+</dependency>
+```
+## Spring Security
+```
+  <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-security</artifactId>
+  </dependency>
+</dependencies>
+```
 ## Loop - JSTL 
 ```
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
