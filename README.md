@@ -116,6 +116,27 @@ spring.mvc.view.suffix: .jsp
   </dependency>
 </dependencies>
 ```
+## JWT
+```
+<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-api -->
+<dependency>
+    <groupId>io.jsonwebtoken</groupId>
+    <artifactId>jjwt-api</artifactId>
+    <version>0.12.6</version>
+</dependency>
+<dependency>
+    <groupId>io.jsonwebtoken</groupId>
+    <artifactId>jjwt-impl</artifactId>
+    <version>0.12.6</version>
+    <scope>runtime</scope>
+</dependency>
+<dependency>
+    <groupId>io.jsonwebtoken</groupId>
+    <artifactId>jjwt-jackson</artifactId> <!-- or jjwt-gson or jjwt-orgjson -->
+    <version>0.12.6</version>
+    <scope>runtime</scope>
+</dependency>
+```
 ## Loop - JSTL 
 ```
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
