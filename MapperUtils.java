@@ -9,7 +9,7 @@ public class MapperUtils {
         modelMapper.getConfiguration()
                 .setMatchingStrategy(MatchingStrategies.STRICT)
                 .setFieldMatchingEnabled(true)
-                .setFieldAccessLevel(AccessLevel.PRIVATE);
+                .setFieldAccessLevel(Configuration.AccessLevel.PRIVATE);
     }
 
     public static <S, D> D map(S source, Class<D> destinationType) {
